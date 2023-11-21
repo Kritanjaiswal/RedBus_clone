@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/e7c337bff3.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .parent {
+            display: flex;
+            justify-content: space-around;
+        }
+        .parent-o {
+            display: flex;
+        }
+        .parent-c span {
+            margin-left: 40px;
+        }
+        .parent-o div {
+            margin: 20px;
+        }
+        .Middle {
+            background-image: url(https://st.redbus.in/Images/HomeIndia/HeroImage.png);
+            height: 32.5rem;
+            width: 100%;
+            text-align: center;
+            padding-top: 90px;
+        }
+        .Middle p {
+            color: white;
+            font-size: 30px;
+        }
+        .middle-f {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+        }
+        .care {
+            display: flex;
+            width: 1200px;
+            height: 300px;
+            justify-content:center;
+            gap: 20px;
+        }
+        .car1 {
+            width: 300px;
+            height: 168px;
+            background-image: linear-gradient(71.04deg, rgb(12, 57, 139) -6.92%, rgb(62, 118, 216) 109.43%);
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+        .car2 {
+            width: 300px;
+            height: 168px;
+            background-image: linear-gradient(71.04deg, rgb(39, 57, 101) -6.92%, rgb(80, 210, 149) 109.43%);
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+        .car3 {
+            width: 300px;
+            height: 168px;
+            background-image: linear-gradient(71.04deg, rgb(72, 0, 4) -6.92%, rgb(216, 78, 85) 109.43%);
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+        .car4 {
+            width: 170px;
+            height: 168px;
+            background-image: linear-gradient(71.04deg, rgb(14, 113, 67) -6.92%, rgb(115, 236, 179) 109.43%);
+            border-radius: 15px;
+            margin-top: 40px;
+        }
+        .cared {
+            position: relative;
+            background-color: white;
+            margin-top: 130px;
+            width: 1200px;
+            height: 168px;
+            left: 150px;
+            border-radius: 30px;
+        }
+        .its {
+            background-image: url(https://s1.rdbuz.com/web/images/homeV2/appinstall/appInstallbg.svg);
+            height: 418px;
+            width: 1200px;
+        }
+        .seco {
+            display: flex;
+        }
+        .faso {
+            width: 370px;
+            height: 260px;
+        }
+        .firs {
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="parent">
+            <div><img src="https://st.redbus.in/Images/rdc/rdc-redbus-logo.svg" alt="" style="margin-top: 10px;" ></div>
+            <div class="parent-o">
+                <div><img src="https://st.redbus.in/web/images/layout/rb_vertical.svg" alt=""><br>hellow</div>
+                <div><img src="https://st.redbus.in/web/images/layout/ryde_vertical.svg" alt=""><br>Cab Rental</div>
+                <div><img src="https://st.redbus.in/web/images/layout/rail_vertical.svg" alt=""><br>Train Tickets</div>
+            </div>
+            <div class="parent-c">
+                <span class="help"><i class="fa-solid fa-headset"  style="margin: 10px;"></i>Help</span>
+                <span><i class="fa-regular fa-user" style="margin: 10px;" ></i>Account</span>
+                <select>
+                    <option></option>
+                </select>
+            </div>
+        </div>
+        <div class="Middle">
+            <p><b>India's No. 1 Online Bus Ticket Booking Site</b></p>
+            <div class="middle-f">
+                <div><input type="text" placeholder="From" style="padding: 40px; border: 1px solid #ccc; border-top-left-radius: 20px; border-bottom-left-radius: 20px;"></div>
+                <div><input type="text" placeholder="To" style="padding: 40px; border: 1px solid #ccc;"></div>
+                <div><input type="text" placeholder="Date" style="padding: 40px; border: 1px solid #ccc;"></div>
+                <div style="color: white; border: 1px solid rgb(216, 78, 85); padding: 30px; background-color: rgb(216, 78, 85); border-top-right-radius: 20px; border-bottom-right-radius: 20px;"><h2>Search Buses</h2></div>
+            </div>
+            <div class="cared">
+                <h2 class="float-start ms-3 mt-3">TRENDING OFFERS</h2>
+                <div class="care">
+                    <div class="car1">
+                        <span><img src="https://st.redbus.in/images/FIRST/first_26th_sep_2022_ravi/tile-80X80.png" class="float-start mt-4 rounded-circle" alt=""></span>
+                        <span>
+                            <button class="rounded-pill">Bus</button>
+                            <h5>Save up to Rs 250 on bus tickets</h5> <br>
+                            <h6>Valid till 30th Nov</h6>
+                            <button class="rounded-3">First</button> <img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg" alt="">
+                        </span>
+                    </div>
+                    <div class="car2">
+                        <img src="https://st.redbus.in/Images/INDOFFER/HDFC300/80x80.png"  class="float-start mt-4 rounded-circle" alt="">
+                        <span>
+                            <button class="rounded-pill">Bus</button>
+                            <h5>Save up to Rs 250 on bus tickets</h5> <br>
+                            <h6>Valid till 30th Nov</h6>
+                            <button class="rounded-3">First</button> <img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg" alt="">
+                        </span>
+                    </div>
+                    <div class="car3">
+                        <img src="https://st.redbus.in/Images/INDOFFER/80x80/SUPERHIT.png"  class="float-start mt-4 rounded-circle" alt="">
+                        <span>
+                            <button class="rounded-pill">Bus</button>
+                            <h5>Save up to Rs 250 on bus tickets</h5> <br>
+                            <h6>Valid till 30th Nov</h6>
+                            <button class="rounded-3">First</button> <img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg" alt="">
+                        </span>
+                    </div>
+                    <div class="car4">
+                        <img src="https://st.redbus.in/Images/INDOFFER/80x80/BUS300.png"  class="float-start mt-4 rounded-circle" alt="">
+                        <span>
+                            <button class="rounded-pill">Bus</button>
+                            <h5>Save up to</h5> <br>
+                            <h6>Valid till</h6>
+                            <button class="rounded-3">First</button> <img src="https://s2.rdbuz.com/web/images/homeV2/copy.svg" alt="">
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="https://platforms.makemytrip.com/contents/eb882edd-8d39-4cf1-8d57-a04f6e64f7c1" style="width: 970px; height: 90px; margin-top: 250px; margin-left: 250px;" alt="">
+        </div>
+    </div>
+    <div class="container mt-5 p-5">
+        <div class="row">
+            <div class="col-7">
+                <h3>NOW, <b>GET MORE THAN <br> JUST BUS</b> TICKETS WITH <br>REDBUS!</h3>
+                <span><img src="https://s2.rdbuz.com/web/images/homeV2/AboutUs/ryde.svg" alt="">cab/Bus Rental</span>
+                <span><img src="https://s1.rdbuz.com/web/images/homeV2/AboutUs/redRail.svg" class="ms-5" alt="">Train Tickets</span>
+                <div class="mt-4"><p>Rent Cabs, Tempo Travellers & Buses with best drivers</p></div>
+                <div><img src="https://s3.rdbuz.com/web/images/homeV2/AboutUs/ryde_car.svg" alt="">Outstation</div>
+                <div><img src="https://s1.rdbuz.com/web/images/homeV2/AboutUs/ryde_car_hourly.svg" class="mt-3" alt="">Hourly Rental</div>
+                <div><img src="https://s2.rdbuz.com/web/images/homeV2/AboutUs/ryde_airport_transport.svg" class="mt-4" alt="">Airport Transfers</div>
+                <div>
+                    <button class="btn btn-danger mt-5">Book Cab/Bus Rental -></button>
+                </div>
+            </div>
+            <div class="col-5">
+                <img src="https://s3.rdbuz.com/web/images/homeV2/AboutUs/rydePop.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <div class=" container its">
+        <div class="pt-4 ps-4"><h1 class="text-white">Enjoy The App!</h1></div>
+        <div class="firs">
+            <div class="faso bg-white rounded-4 mt-4 ms-4">
+                <div><img src="https://s3.rdbuz.com/web/images/homeV2/appinstall/tick.svg" class="me-3" alt="">Quick Access</div>
+                <div><img src="https://s3.rdbuz.com/web/images/homeV2/appinstall/tick.svg" class="me-3" alt="">Superior live tracking</div>
+                <div class="seco mt-4 ms-3 rounded-4">
+                    <div class="me-5 ms-3">
+                        <h2>4.5*</h2>
+                        <p>50M + downloads</p>
+                        <h5>Play Store</h5>
+                    </div>
+                    <div>
+                        <h2>4.6*</h2>
+                        <p>50M + downloads</p>
+                        <h5>App Store</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="ms-5">
+                <h5 class="text-white">Scan to <br> download</h5>
+                <div><img src="https://s1.rdbuz.com/web/images/homeV2/qrCode.svg" alt=""></div>
+            </div>
+            <div class="ms-5">
+                <h5 class="text-white">Download the<br> App on</h5>
+                <div><img src="https://s2.rdbuz.com/web/images/homeV2/appinstall/playStore.svg" alt=""></div>
+                <div><img src="https://s3.rdbuz.com/web/images/homeV2/appinstall/appStore.svg" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
